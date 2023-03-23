@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rekisteröityminen</h1>
+    <br>
+    <section id="taulukko">
+        <label for="kayttaja">Käyttäjä ID: </label>
+        <input type="text" id="kayttaja" size="10"><br><br>
+        <label for="salasana">Salasana: </label>
+        <input type="text" id="salasana" size="10"><br><br>
+        <label for="nimi">Nimi: </label>
+        <input type="text" id="nimi"><br><br>
+        <label for="osoite">Osoite: </label>
+        <input type="text" id="osoite"><br><br>
+        <label for="maat">Maa: </label>
+        <select id="maat" name="maa">
+            <option value="valitse" selected disabled>(Valitse maa)</option>
+            <option value="suomi">Suomi</option>
+            <option value="ruotsi">Ruotsi</option>
+        </select><br><br>
+        <label for="posti">Postinumero:</label>
+        <input type="text" id="posti"><br><br>
+        <label for="sposti">Sähköposti:</label>
+        <input type="text" id="sposti"><br><br>
+        <section id="genre">
+            <label for="sukupuoli">Sukupuoli:</label>
+            <input type="radio" id="mies" name="sukupuoli" value="mies">
+            <label for="mies" id="mies">Mies</label>
+            <input type="radio" id="nainen" name="sukupuoli" value="nainen">
+            <label for="nainen" id="nainen">Nainen</label>
+            <input type="radio" id="muun" name="sukupuoli" value="muun">
+            <label for="muun" id="muun">Muu</label><br><br>
+        </section>
+        <section id="lang">
+            <label for="kieli">Kieli: </label>
+            <input type="checkbox" id="kieli" name="kieli" value="suomi2">
+            <label for="kieli" id="suomi">Suomi</label>
+            <input type="checkbox" id="kieli" name="kieli" value="ruotsi2">
+            <label for="kieli" id="suomi">Ruotsi</label>
+            <input type="checkbox" id="kieli" name="kieli" value="englanti">
+            <label for="kieli" id="suomi">Englanti</label>
+            <input type="checkbox" id="muu" name="kieli" value="muu">
+            <label for="muu" id="kuin">Muu</label><br><br>
+        </section>
+        <label for="tietoa">Lisätietoa: </label>
+        
+        <textarea id="tietoa" name="tietoa" rows="7" cols="35">
+        </textarea>
+        <br>
+        <input type="button" id="send" value="Lähetä">
+        <br>
+        <div class="msg"></div>
+
+     
+   
+
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

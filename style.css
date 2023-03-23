@@ -1,0 +1,64 @@
+input[type="text"], select {
+    display: inline-block;
+    width: 200px; 
+  }
+
+label {
+    display: inline-block;
+    width: 100px; 
+    text-align: right;
+    margin-right: 10px;
+  }
+
+#maat {
+    display: inline-block; 
+    text-align: center;
+    margin-right: 10px;
+    width: auto;
+  }
+
+#genre > #mies {
+    display: inline-block;
+    text-align: start;
+    margin-right: 0px;
+    width: auto;
+  }
+  
+#genre > #nainen {
+    display: inline-block;
+    text-align: start;
+    margin-right: 0px;
+    width: auto;
+  }
+
+  #genre > #muun {
+    display: inline-block;
+    text-align: start;
+    
+  }
+
+  #lang #suomi {
+    display: inline-block;
+    text-align: start;
+    margin-right: 0px;
+    width: auto;
+  }
+
+  #lang #kuin {
+    display: inline-block;
+    text-align: start;
+    margin-right: 0px;
+    width: auto;
+  }
+
+
+#send {
+  margin-left: 200px;
+}
+
+.msg {
+  color: red;
+  font-size: large;
+  width: auto;
+  margin-left: 100px;
+}
